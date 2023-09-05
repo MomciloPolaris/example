@@ -6,7 +6,7 @@ const CoachCard = ({text, textP, deleted}) => {
   return ( 
     <div
       className={`max-w[1080px] flex flex-col px-5 text-center rounded-xl drop-shadow-lg bg-white mx-4 sm:mx-0 mt-36 mb-20 ${
-        deleted ? "sm:inline hidden" : ""
+        deleted ? "" : ""
       }`}
     >
       <img

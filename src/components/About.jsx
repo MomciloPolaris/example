@@ -1,11 +1,11 @@
 
 
 
-const LeftSide= () => {
+/*const LeftSide= () => {
 return (
 <div id="About" className="sm:w-full">
     <div id="RightSideTitle" className="sm:w-4/5 sm:m-auto">
-        <p className="text-xl font-bold text-[#4F4F4F] inline-block "><img className="inline-block mr-2 "
+        <p className="text-xl font-bold text-[#4F4F4F] inline-block "><img className="inline-block mr-1 "
                 src="src/assets/images/Person.png" alt="Person" />About</p>
         <div className=" h-0.5 w-full bg-[#D9D9D9] inline-block"></div>
     </div>
@@ -23,8 +23,12 @@ return (
         Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
         Quisque vitae bibendum lacus. Duis in risus et ipsum eleifend tincidunt vel vel nunc.
     </p>
-</div>
+</div> 
+
+
 );
 };
 
-export default LeftSide;
+export default LeftSide;*/
+
+
