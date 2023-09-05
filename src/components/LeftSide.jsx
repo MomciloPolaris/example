@@ -1,7 +1,7 @@
-import React from "react";
 
 
-const LeftSideCoachPage = () => {
+
+const LeftSide = () => {
 return (
 <div className="LeftSide w-1/4 mt-7 sm:w-full sm:mb-12">
     <div id="LeftSideTitle" className="sm:">
@@ -17,4 +17,4 @@ return (
 );
 };
 
-export default LeftSideCoachPage;
+export default LeftSide;

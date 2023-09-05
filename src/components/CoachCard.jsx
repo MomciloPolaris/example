@@ -1,4 +1,6 @@
+
 import React from 'react'
+
 
 const CoachCard = ({text, textP, deleted}) => {
   return ( 

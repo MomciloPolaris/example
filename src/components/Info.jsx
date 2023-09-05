@@ -1,7 +1,7 @@
 import React from "react";
-import Container from "../components/Container";
+import Container from "./Container";
 
-const CoachInfo = () => {
+const Info = () => {
 return (
 <section className="w-full">
     <Container>
@@ -14,7 +14,7 @@ return (
                 <img className="rounded-2xl" src="src/assets/images/ProfileImage.png" alt="Profile Image" />
             </div>
             <div className="About sm:order-3 sm:m-auto sm:mb-6">
-                <p id="Name" className="font-bold text-2xl inline-block mr-5 mb-4">Jelana Markovic</p>
+                <p id="Name" className="font-bold text-2xl inline-block mr-5 mb-4">Jelena Markovic</p>
                 <p id="Location" className="inline-block text-sm font-bold leading-4 text-custom-gray text-customGray">
                     <img className="inline-block mr-1 mb-1" src="src/assets/images/Vector.png"
                         alt="Location Vector" />Serbia</p>
@@ -46,8 +46,8 @@ return (
             <div id="Coaching" className="sm:order-4 sm:m-auto">
                 <div id="Title">
                     <p className="text-base font-bold text-[#737373] mb-6 inline-block">COACHING</p>
-                    <p className="font-bold text-[#B9B9B9] inline-block float-right cursor-pointer"><img
-                            className="inline-block mr-1 mb-1" src="src/assets/images/SmallPen.svg" alt="Pen" />Edit</p>
+                    <p className="font-bold text-[#B9B9B9] inline-block float-right cursor-pointer"></p>
+                        
                 </div>
                 <div className="FlexBox flex">
                     <div id="Skills">
@@ -75,4 +75,4 @@ return (
 );
 };
 
-export default CoachInfo;
+export default Info;

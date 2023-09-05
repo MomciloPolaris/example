@@ -1,7 +1,7 @@
-import React from 'react'
 
 
-const RatingCoachPage = () => {
+
+const Rating = () => {
 return (
 <div id="RatingCoach" className="sm:w-4/5 sm:m-auto">
     <p id="RatingTitle" className="text-xl font-bold text-[#4F4F4F] ">
@@ -93,4 +93,4 @@ return (
 );
 };
 
-export default RatingCoachPage;
+export default Rating;
